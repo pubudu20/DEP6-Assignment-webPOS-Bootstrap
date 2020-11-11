@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Orders</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="" name="description">
+	<meta content="Pubudu Palihakkara" name="author">
+	<link href="assets/icons/favicon.ico" rel="icon">
+	
+	<title>Dashboard Template for Bootstrap</title>
+	
+	<link href="https://getbootstrap.com/docs/4.0/examples/dashboard/" rel="canonical">
+	
+	<!-- Bootstrap core CSS -->
+	<link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	
+	<!-- Custom styles for this template -->
+	<link href="css/dashboard.css" rel="stylesheet">
+	<style>
+		.sidebarIcon {
+			height: 18px;
+			width: 18px;
+			filter: brightness(10%) contrast(5%);
+		}
+		.nav-item:hover .nav-link{
+			transform: scaleX(1.08);
+			child-align: right;
+			font-weight: bold;
+			filter: brightness(100%) contrast(100%);
+			background-color: lightsteelblue;
+		}
+	</style>
 </head>
+
 <body>
-<h1>Place Orders</h1>
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+	<a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IJSE WEB POS</a>
+	<input aria-label="Search" class="form-control form-control-dark w-100" placeholder="Search" type="text">
+	<ul class="navbar-nav px-3">
+		<li class="nav-item text-nowrap">
+			<a class="nav-link" href="signin.html">Sign out</a>
+		</li>
+	</ul>
+</nav>
+
+<div class="container-fluid">
+	<div class="row">
+		<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+			<div class="sidebar-sticky">
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a class="nav-link" href="dashboard.html">
+							<img class="sidebarIcon" src="icons/home.svg">
+							Dashboard
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="customers.html">
+							<img class="sidebarIcon" src="icons/users.svg">
+							Customers
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="items.html">
+							<img class="sidebarIcon" src="icons/box.svg">
+							Items
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="orders.html">
+							<img class="sidebarIcon" src="icons/shopping-cart.svg">
+							Place Order
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="searchOrders.html">
+							<img class="sidebarIcon" src="icons/search.svg">
+							Search Orders
+						</a>
+					</li>
+				</ul>
+			
+			</div>
+		</nav>
+		
+		<main class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4" role="main">
+			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+				<h1 class="h2">Place Order</h1>
+			</div>
+		
+		</main>
+	</div>
+</div>
+
 
 </body>
 </html>
