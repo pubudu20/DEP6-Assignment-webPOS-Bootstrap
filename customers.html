@@ -87,6 +87,96 @@
 			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
 				<h1 class="h2">Manage Customers</h1>
 			</div>
+			<div class="content">
+				<div class="row">
+					<div class="col-lg-11" style="border: 1px solid lightsteelblue;margin: 2%;border-radius: 2%">
+						<form role="form">
+							<div class="card-body">
+								<h1>Add new Customer</h1>
+								
+								<div class="form-group">
+									<label for="cusName">Customer Name</label>
+									<input class="form-control" id="cusName" placeholder="Enter full name" type="text">
+								</div>
+								
+								<div class="form-group">
+									<label for="cusAddress">Customer Address</label>
+									<input class="form-control" id="cusAddress" placeholder="Enter full name" type="text">
+								</div>
+								
+								<div class="form-group">
+									<label for="cusPhone">Customer Phone</label>
+<!--									<span class="input-group-text"><i class="fas fa-phone"></i>-->
+                                <input class="form-control" id="cusPhone" placeholder="Enter Phone Number" type="text">
+                                </span>
+								</div>
+								
+								
+								<div class="form-group">
+									<label for="exampleInputFile">Profile picture</label>
+									<div class="input-group">
+										<div class="custom-file">
+											<input class="custom-file-input" id="exampleInputFile" type="file">
+											<label class="custom-file-label" for="exampleInputFile">Choose image for profile
+											                                                        picture</label>
+										</div>
+										<div class="input-group-append">
+											<span class="input-group-text" id="">Upload</span>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+							<!-- /.card-body -->
+							
+							<div class="card-footer">
+								<button class="btn btn-primary" type="submit">Submit</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-11" style="margin: 2%">
+						<div class="card">
+							<div class="card-header">
+								<h3 class="card-title">Data Table</h3>
+							</div>
+							<!-- /.card-header -->
+							<div class="card-body">
+								<table class="table table-bordered table-hover" id="example2">
+									<thead>
+									<tr>
+										<th>Customer ID</th>
+										<th>Name</th>
+										<th>Address</th>
+										<th>Phone</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+										<td>C001</td>
+										<td>Pubudu</td>
+										<td>Soysapura</td>
+										<td>0717465738</td>
+									</tr>
+									<tr>
+										<td>C002</td>
+										<td>Dasuni</td>
+										<td>Kadawatha</td>
+										<td>0777735462</td>
+									</tr>
+									<tr>
+										<td>C003</td>
+										<td>Sajan</td>
+										<td>Piliyandala</td>
+										<td>0112746382</td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- /.card-body -->
+						</div>
+					</div>
+				</div>
+			</div>
 		
 		</main>
 	</div>

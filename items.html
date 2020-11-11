@@ -87,6 +87,94 @@
 			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
 				<h1 class="h2">Manage Items</h1>
 			</div>
+			<div class="content">
+				<div class="row">
+					<div class="col-lg-11" style="border: 1px solid lightsteelblue;margin: 2%;border-radius: 2%">
+						<form role="form">
+							<div class="card-body">
+								<h1>Add new Item</h1>
+								
+								<div class="form-group">
+									<label for="itemDesc">Item Description</label>
+									<input class="form-control" id="itemDesc" placeholder="Enter description" type="text">
+								</div>
+								
+								<div class="form-group">
+									<label for="itemPrice">Price</label>
+									<input class="form-control" id="itemPrice" placeholder="Enter price" type="text">
+								</div>
+								
+								<div class="form-group">
+									<label for="itemQty">Quantity available</label>
+									<input class="form-control" id="itemQty" placeholder="Enter quantity" type="text">
+								</div>
+								
+								
+								<div class="form-group">
+									<label for="exampleInputFile">Item picture</label>
+									<div class="input-group">
+										<div class="custom-file">
+											<input class="custom-file-input" id="exampleInputFile" type="file">
+											<label class="custom-file-label" for="exampleInputFile">Choose image</label>
+										</div>
+										<div class="input-group-append">
+											<span class="input-group-text" id="">Upload</span>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+							<!-- /.card-body -->
+							
+							<div class="card-footer">
+								<button class="btn btn-primary" type="submit">Submit</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-11" style="margin: 2%">
+						<div class="card">
+							<div class="card-header">
+								<h3 class="card-title">Data Table</h3>
+							</div>
+							<!-- /.card-header -->
+							<div class="card-body">
+								<table class="table table-bordered table-hover" id="example2">
+									<thead>
+									<tr>
+										<th>Item ID</th>
+										<th>Description</th>
+										<th>Price</th>
+										<th>Quantity</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+										<td>I001</td>
+										<td>Rice</td>
+										<td>150</td>
+										<td>45</td>
+									</tr>
+									<tr>
+										<td>I002</td>
+										<td>Dhal</td>
+										<td>250</td>
+										<td>25</td>
+									</tr>
+									<tr>
+										<td>I003</td>
+										<td>Sugar</td>
+										<td>350</td>
+										<td>30</td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- /.card-body -->
+						</div>
+					</div>
+				</div>
+			
+			</div>
 		
 		</main>
 	</div>
