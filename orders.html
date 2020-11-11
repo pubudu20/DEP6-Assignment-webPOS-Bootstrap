@@ -87,6 +87,139 @@
 			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
 				<h1 class="h2">Place Order</h1>
 			</div>
+			<div class="content">
+				<div class="card card-secondary">
+					<div class="card-header">
+						<h3 class="card-title" style="font-size: x-large"></h3>
+					</div>
+					<div class="card-body">
+						<div class="card-body" style="border: 3px ridge lightgray;padding: 1%">
+							<div class="form-group">
+								<label>Customer Select</label>
+								<select class="custom-select">
+									<option>C001</option>
+									<option>C002</option>
+									<option>C003</option>
+									<option>C004</option>
+									<option>C005</option>
+								</select>
+							</div>
+							<div class="row">
+								<div class="col-lg-4 col-12">
+									<label STYLE="margin-left: 2%;font-size: small;margin-bottom: 0%;">Customer Name</label>
+									<input class="form-control form-control-sm" disabled placeholder="Pubudu"
+									       type="text">
+								</div>
+								<div class="col-lg-4 col-12">
+									<label STYLE="margin-left: 2%;font-size: small;margin-bottom: 0%;">Address</label>
+									<input class="form-control form-control-sm" disabled placeholder="Moratuwa"
+									       type="text">
+								</div>
+								<div class="col-lg-4 col-12">
+									<label STYLE="margin-left: 2%;font-size: small;margin-bottom: 0%;">Phone</label>
+									<input class="form-control form-control-sm" disabled placeholder="0714747934"
+									       type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-body">
+						<div class="card-body" style="border: 3px ridge lightgray;padding: 1%">
+							<div class="form-group">
+								<label>Item Select</label>
+								<select class="custom-select">
+									<option>I001</option>
+									<option>I002</option>
+									<option>I003</option>
+									<option>I004</option>
+									<option>I005</option>
+								</select>
+							</div>
+							<div class="row">
+								<div class="col-lg-4 col-12">
+									<label STYLE="margin-left: 2%;font-size: small;margin-bottom: 0%;">Item
+									                                                                   description</label>
+									<input class="form-control form-control-sm" disabled placeholder="Butter" type="text">
+								</div>
+								<div class="col-lg-4 col-12">
+									<label STYLE="margin-left: 2%;font-size: small;margin-bottom: 0%;">Price</label>
+									<input class="form-control form-control-sm" disabled placeholder="365.00" type="text">
+								</div>
+								<div class="col-lg-4 col-12">
+									<label STYLE="margin-left: 2%;font-size: small;margin-bottom: 0%;">Quantity
+									                                                                   available</label>
+									<input class="form-control form-control-sm" disabled placeholder="28" type="text">
+								</div>
+								<div class="col-lg-6 col-12">
+									<label STYLE="margin-left: 2%;margin-top: 5%;-webkit-text-fill-color: darkgreen">Enter
+									                                                                                 order quantity:</label>
+									<input class="form-control" placeholder="" style="border-color: darkgreen" type="text">
+								</div>
+								<div class="col-lg-6 col-12">
+									<button class="btn" style="height: 70%;width: 95%;margin: 5%;background-color: darkgreen;font-weight: bold;-webkit-text-fill-color: white"
+									        type="button"> Add
+									                       to cart
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="card">
+						<div class="card-header">
+							<h3 class="card-title"style="font-weight: bold">Current items on cart :</h3>
+						</div>
+						<div class="card-body">
+							<table class="table table-bordered table-hover" id="example2">
+								<thead>
+								<tr>
+									<th>Item ID</th>
+									<th>Description</th>
+									<th>Price</th>
+									<th>Quantity ordered</th>
+									<th></th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>I001</td>
+									<td>Sugar</td>
+									<td>120</td>
+									<td>2</td>
+									<td>
+										<button type="button" class="btn btn-block btn-outline-danger btn-sm" style="padding: 0%">
+											Remove
+										</button>
+									</td>
+								</tr>
+								<tr>
+									<td>I002</td>
+									<td>Butter</td>
+									<td>350</td>
+									<td>1</td>
+									<td>
+										<button type="button" class="btn btn-block btn-outline-danger btn-sm" style="padding: 0%">
+											Remove
+										</button>
+									</td>
+								</tr>
+								<tr>
+									<td>I003</td>
+									<td>Noodles</td>
+									<td>325</td>
+									<td>1</td>
+									<td>
+										<button type="button" class="btn btn-block btn-outline-danger btn-sm" style="padding: 0%">
+											Remove
+										</button>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
 		
 		</main>
 	</div>
